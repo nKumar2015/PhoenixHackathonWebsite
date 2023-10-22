@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-
+import { SectionWrapper } from '../HOC'
 const Contact = () => {
   return(
     <div>
@@ -9,4 +9,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default SectionWrapper(Contact, "Contact")

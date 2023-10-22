@@ -1,12 +1,22 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react"
-
-import { slideImages } from "../contants";
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
+import { slideImages, slideCaptions, signup } from "../constants";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
 const Slideshow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeout(() => {
+        nextSlide()
+      }, 100);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -24,24 +34,29 @@ const Slideshow = () => {
     setCurrentIndex(slideIndex);
   };
 
-  const slideCaptions = [
-    <>
-      <h1 className="flex justify-center text-[90px] pt-[200px]">Compete in Phoenix Hacks 3.0</h1>
-      <p className="flex justify-center text-[20px]">Attend workshops to learn new skills and technology. We offer a variety for all levels</p>
-    </>,
-    <>        
-      <h1 className="flex justify-center text-[90px] pt-[200px]">Win hundreds in prizes</h1>
-      <p className="flex justify-center text-[20px]">Including: Gaming Monitor, Airpods, Speakers, Gift Cards, etc.</p>
-    </>
-  ]
-
   return (
-    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group pt-20'>
+    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group pt-20 '>
       <div
         style={{ backgroundImage: `url(${slideImages[currentIndex]})` }}
-        className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+        className='w-full h-full rounded-2xl bg-center bg-cover duration-500 flex justify-center flex-col'
       >
-        {slideCaptions[currentIndex]}
+        <h1 className="flex justify-center text-[90px]">{slideCaptions[currentIndex].main}</h1>
+        <p className="flex justify-center text-[20px]">{slideCaptions[currentIndex].subtext}</p>
+        {currentIndex == 1 &&
+          <button
+            className='bg-tertiary py-3 px-8 outline-none w-fit 
+            text-white font-bold shadow-md shadow-primary
+            rounded-xl ml-[620px] mt-8 hover:bg-white hover:text-black'>
+            <Link
+              to={`${signup}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className='flex items-center gap-2'
+            >
+              Sign Up
+            </Link>
+          </button>
+        }
       </div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>

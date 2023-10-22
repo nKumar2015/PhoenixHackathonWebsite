@@ -1,4 +1,7 @@
 import close from './close.svg'
 import menu from './menu.svg'
 
-export { menu, close }
+import hackathon from './hackathon.avif'
+import workshops from './workshops.png'
+
+export { menu, close, hackathon, workshops }
