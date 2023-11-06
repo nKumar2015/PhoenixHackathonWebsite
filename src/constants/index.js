@@ -56,6 +56,26 @@ const team = [
 		name: 'John Doe',
 		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
 	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
 ];
 
 const contact = {
