@@ -43,8 +43,6 @@ const about = {
 	},
 };
 
-const location = '43460 Loudoun Reserve Dr, Ashburn, VA 20148';
-
 const team = [
 	{
 		name: 'John Doe',
@@ -60,4 +58,11 @@ const team = [
 	},
 ];
 
-export { navLinks, signup, slideImages, slideCaptions, about, location, team }
+const contact = {
+	location: '43460 Loudoun Reserve Dr, Ashburn, VA 20148',
+	email: "phoenixhacks2023@gmail.com",
+	phone: "666-666-6666",
+	mapid: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.4625996210652!2d-77.50240125167447!3d38.97798397794696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b63f61fe2dd529%3A0x49f14c31f5e7c9f3!2sRock%20Ridge%20High%20School!5e1!3m2!1sen!2sus!4v1699241607727!5m2!1sen!2sus"
+}
+
+export { navLinks, signup, slideImages, slideCaptions, about, contact, team}

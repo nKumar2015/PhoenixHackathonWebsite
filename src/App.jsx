@@ -2,7 +2,7 @@
 import React from 'react'
 import { BrowserRouter } from "react-router-dom"
 
-import { Navbar, Slideshow, Contact, About } from './components'
+import { Navbar, Slideshow, Contact, About, Sponsors } from './components'
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
         </div>
           <About />
           <Contact />
+          <Sponsors />
       </div>
     </BrowserRouter>
   )
