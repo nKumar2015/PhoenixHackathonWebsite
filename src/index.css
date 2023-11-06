@@ -13,6 +13,68 @@
 	color-scheme: dark;
 }
 
+:root {
+  /* fonts */
+  --h1: Inter;
+  --button-text: Outfit;
+  --font-droid-sans: "Droid Sans";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --button-text-size: 16px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --h1-size: 50px;
+
+  /* Colors */
+  --c4: #fff;
+  --color-royalblue: #0052b7;
+  --c5: #e4ebf3;
+  --color-silver: #b4bac1;
+  --c3: #000;
+  --color-darkgray: #979797;
+  --c1: #2474d6;
+  --color-whitesmoke: #f5f7fa;
+  --c2: #92ffe5;
+  --color-gainsboro: #d9d9d9;
+  --color-hotpink: #f178b6;
+
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-45xl: 64px;
+  --gap-29xl: 48px;
+  --gap-5xl: 24px;
+  --gap-33xl: 52px;
+  --gap-9xs: 4px;
+  --gap-61xl: 80px;
+  --gap-xs: 12px;
+  --gap-xl: 20px;
+  --gap-81xl: 100px;
+
+  /* Paddings */
+  --padding-45xl: 64px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-31xl: 50px;
+
+  /* border radiuses */
+  --br-81xl: 100px;
+  --br-mini: 15px;
+}
+
 .hash-span {
 	margin-top: -100px;
 	padding-bottom: 100px;
