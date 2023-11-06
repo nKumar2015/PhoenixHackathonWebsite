@@ -7,8 +7,7 @@ import { Tilt } from 'react-tilt';
 import { team } from '../constants'
 import { styles } from '../styles';
 
-
-const ProjectCard = ({ name, image, index }) => {
+const PersonCard = ({ name, image }) => {
   return (
     <Tilt option={{ max: 45, scale: 1, speed: 450 }} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
       <div className='relative w-full h-[230px]'>
@@ -29,7 +28,7 @@ const TeamMembers = () => {
   return (
     <div className={`mt-20 flex flex-wrap gap-7 mx-auto max-w-[96rem]`}>
       {team.map((person, index) => (
-        <ProjectCard key={`person.${index}`} index={index} {...person} />
+        <PersonCard key={`person.${index}`} {...person} />
       ))}
     </div>
   )
