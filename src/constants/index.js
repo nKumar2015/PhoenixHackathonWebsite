@@ -44,6 +44,24 @@ const about = {
 };
 
 
+const location = '43460 Loudoun Reserve Dr, Ashburn, VA 20148';
+
+const team = [
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+	{
+		name: 'John Doe',
+		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+	},
+];
+
+export { navLinks, signup, slideImages, slideCaptions, about, location, team }
 const contact = {
 	location: '43460 Loudoun Reserve Dr, Ashburn, VA 20148',
 	email: "phoenixhacks2023@gmail.com",
