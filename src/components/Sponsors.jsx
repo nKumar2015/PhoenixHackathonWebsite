@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../HOC";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
-import { lcpscs, mantech, awmg, northpoint, kwf } from "../assets";
+import { lcpscs, awmg, northpoint, kwf } from "../assets";
 
 const Sponsors = () => {
   return (
@@ -18,7 +18,6 @@ const Sponsors = () => {
         <div className="block w-[200%] absolute overflow-hidden animate-[marquee_12s_linear_infinite]">
           <div className="flex justify-between flex-row float-left overflow-hidden w-[50%]">
             <img src={lcpscs} style={{ height: 50, width: "auto" }} />
-            <img src={mantech} style={{ height: 50, width: "auto" }} />
             <img src={awmg} style={{ height: 50, width: "auto" }} />
             <img src={northpoint} style={{ height: 50, width: "auto" }} />
             <img src={kwf} style={{ height: 50, width: "auto" }} />
@@ -26,7 +25,6 @@ const Sponsors = () => {
           </div>
           <div className="flex justify-between flex-row float-left overflow-hidden w-[50%]">
             <img src={lcpscs} style={{ height: 50, width: "auto" }} />
-            <img src={mantech} style={{ height: 50, width: "auto" }} />
             <img src={awmg} style={{ height: 50, width: "auto" }} />
             <img src={northpoint} style={{ height: 50, width: "auto" }} />
             <img src={kwf} style={{ height: 50, width: "auto" }} />
