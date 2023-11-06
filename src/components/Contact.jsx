@@ -9,8 +9,8 @@ import { address, email } from "../assets";
 
 const Contact = () => {
   return (
-    <div className="flex-col pt-[var(--padding-13xl)] pb-[var(--padding-13xl)] justify-start gap-[var(--gap-21xl)] text-center text-[length:var(--font-size-13xl)] text-[color:var(--c3)] px-0;">
-      <div className="m-[24px]">
+    <div className="flex-col justify-start gap-[var(--gap-21xl)] text-center text-[length:var(--font-size-13xl)] text-[color:var(--c3)] px-0;">
+      <div className="mb-[24px]">
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Get in Touch</h2>
         </motion.div>
@@ -106,4 +106,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "Contact");
+export default SectionWrapper(Contact, "contact");
