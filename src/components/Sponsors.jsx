@@ -3,7 +3,7 @@ import React from "react";
 import { styles } from "../styles";
 import { SectionWrapper } from "../HOC";
 import { motion } from "framer-motion";
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { lcpscs, awmg, northpoint, kwf } from "../assets";
 
 const Sponsors = () => {
@@ -13,6 +13,12 @@ const Sponsors = () => {
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Sponsors</h2>
         </motion.div>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className={styles.sectionSubText}
+        >
+          Interested in sponsoring? Email us at phoenixhacks2023@gmail.com
+        </motion.p>
       </div>
       <div className="flex flex-row gap-5 w-[100%] h-[50px] overflow-hidden relative">
         <div className="block w-[200%] absolute overflow-hidden animate-[marquee_12s_linear_infinite]">
