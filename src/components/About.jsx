@@ -6,7 +6,6 @@ import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from "../utils/motion";
 import { about } from '../constants'
 import { hackathon, workshops } from "../assets";
-import TeamMembers from "./TeamMembers";
 
 const About = () => {
   return (
@@ -41,7 +40,6 @@ const About = () => {
           </motion.p>
         </div>
       </div>
-      <TeamMembers />
     </>
   )
 }
