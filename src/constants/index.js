@@ -1,18 +1,9 @@
-const slideImages = [
-  'https://t4.ftcdn.net/jpg/04/93/49/37/360_F_493493706_jP0lDchc8vMySihawHZG1RPvLOnJ1iqs.jpg',
-  'https://t3.ftcdn.net/jpg/05/14/95/12/360_F_514951224_2dxMLbIw5qNRdPGD003chpbVcxWtcp7K.jpg',
-]
-
 const slideCaptions = [
-	{
-		main: 'Compete in Phoenix Hacks 3.0',
-		subtext:
-			'Attend workshops to learn new skills and technology. We offer a variety for all levels',
-	},
-	{
-		main: 'Win hundreds in prizes',
-		subtext: 'Including: Gaming Monitor, Airpods, Speakers, Gift Cards, etc.',
-	},
+  {
+    main: "Phoenix Hacks",
+    subtext:
+      "January 6th, 2024",
+  },
 ];
 
 const signup = 'https://docs.google.com/forms/d/e/1FAIpQLScZWF-7twcqNmcirLapwiOdgu2yNqTi3RrzOAlQb9_17ZYoHg/viewform'; 
@@ -65,4 +56,4 @@ const contact = {
 	mapid: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.4625996210652!2d-77.50240125167447!3d38.97798397794696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b63f61fe2dd529%3A0x49f14c31f5e7c9f3!2sRock%20Ridge%20High%20School!5e1!3m2!1sen!2sus!4v1699241607727!5m2!1sen!2sus"
 }
 
-export { navLinks, signup, slideImages, slideCaptions, about, contact, team}
+export { navLinks, signup, slideCaptions, about, contact, team}
