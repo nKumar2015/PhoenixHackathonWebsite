@@ -16,7 +16,7 @@ const Slideshow = () => {
       }, 100);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  },);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -40,7 +40,7 @@ const Slideshow = () => {
         style={{ backgroundImage: `url(${slideImages[currentIndex]})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500 items-center flex justify-center flex-col"
       >
-        <h1 className="flex justify-center text-[90px] font-bold [text-shadow:_0_7px_0_rgb(0_0_0_/_40%)]">
+        <h1 className="text-[50px] md:flex justify-center md:text-[90px] font-bold [text-shadow:_0_7px_0_rgb(0_0_0_/_40%)]">
           {slideCaptions[0].main}
         </h1>
         <p className="flex justify-center text-[20px] [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]">

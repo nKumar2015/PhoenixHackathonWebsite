@@ -10,7 +10,7 @@ import { hackathon, workshops } from "../assets";
 const About = () => {
   return (
     <>
-      <div className="mb-[200px] flex flex-row">
+      <div className="mb-[200px] flex flex-row"> 
         <div className="mr-[30px]">
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}
@@ -23,10 +23,10 @@ const About = () => {
             {about.hackathon.desc}
           </motion.p>
         </div>
-        <img src={hackathon} style={{ height: 500, width: "auto" }} />
+        <img src={hackathon} className="hidden md:flex max-h-[500px]" />
       </div>
       <div className="flex flex-row">
-        <img src={workshops} style={{ height: 500, width: "auto" }}  className="mr-[30px]" />
+        <img src={workshops} className="hidden md:flex"/>
         <div>
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}
