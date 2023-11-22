@@ -24,6 +24,13 @@ const navLinks = [
 ];
 
 const about = {
+	header: {
+		title: "WELCOME TO PHOENIX HACKATHON 2023-2024"
+	},
+	phoenix: { 
+		title: 'PHOENIX HACKATHON',
+		desc: "This is our second year running an in-person hackathon. We're based at Rock Ridge High School, in Ashburn, Virginia. We look forward to seeing many of you at our event!",
+	},
 	hackathon: {
 		title: 'HACK-A-WHAT?',
 		desc: "A hackathon is a short 1-2 day event where students from middle and high school create and submit a project. Projects can be anything as long as it's related to STEM and follows the theme. During the event, students can choose to attend workshops to learn specific skills. The projects are judged, with overall winners and category winners being selected and awarded with prizes.",
@@ -32,40 +39,27 @@ const about = {
 		title: 'WORKSHOPS',
 		desc: 'We offer workshops for beginners, intermediate, and advanced. Some of our workshops include: Intro to Python, Natural Language Processing, Figma Design, and much more. Look in the Student Packet for more workshops and how to sign up',
 	},
+	prizes: {
+		title: 'PRIZES',
+		desc: 'We have over $1000 in prizes. Our top prizes include a 144hz Gaming Monitor, AirPods, and a drone. We have many more prizes in different categories such as Most Innovative, Best Theme, and Most Workshops Attended. Please check the student information packet for all the prizes we have.'
+	}
 };
 
 const team = [
 	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+		name: 'Brian Tran',
+		image: 'https://i.pinimg.com/736x/17/71/39/1771399e0f2a20b3d0db06efc5799bae.jpg',
+		role: 'President'
 	},
 	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+		name: 'Shoumik Bisoui',
+		image: 'https://i.pinimg.com/736x/4f/0a/ba/4f0ababa96a522758437c52b3d48e5c5.jpg',
+		role: 'Social Media Manager'
 	},
 	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
-	},
-	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
-	},
-	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
-	},
-	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
-	},
-	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
-	},
-	{
-		name: 'John Doe',
-		image: 'https://i.pinimg.com/originals/a0/a7/0c/a0a70ccaa87d8bfb350842a5be822899.jpg',
+		name: 'William Wo',
+		image: 'https://i.pinimg.com/736x/a6/91/20/a69120497f319ec6357a891ffc9452d1.jpg',
+		role: 'Sponsor Management'
 	},
 ];
 

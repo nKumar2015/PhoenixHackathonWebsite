@@ -12,5 +12,7 @@ import mantech from "./mantech.png"
 import awmg from "./awmg.png"
 import northpoint from "./northpoint.png"
 import kwf from "./kwf.png"
+import reston from "./reston.png"
+import hacking from "./hacking.png"
 
-export { menu, close, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf };
+export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, reston };

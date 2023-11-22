@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../HOC";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import { lcpscs, awmg, northpoint, kwf } from "../assets";
+import { lcpscs, awmg, northpoint, kwf, reston } from "../assets";
 
 const Sponsors = () => {
   return (
@@ -26,7 +26,8 @@ const Sponsors = () => {
             <img src={lcpscs} style={{ height: 50, width: "auto" }} />
             <img src={awmg} style={{ height: 50, width: "auto" }} />
             <img src={northpoint} style={{ height: 50, width: "auto" }} />
-            <img src={kwf} style={{ height: 50, width: "auto" }} />
+            <img src={kwf} style={{ height: 50, width: "auto" }} /> 
+            <img src={reston} style={{ height: 50, width: "auto" }} /> 
             <div></div>
           </div>
           <div className="flex justify-between flex-row float-left overflow-hidden w-[50%] ">
@@ -34,6 +35,7 @@ const Sponsors = () => {
             <img src={awmg} style={{ height: 50, width: "auto" }} />
             <img src={northpoint} style={{ height: 50, width: "auto" }} />
             <img src={kwf} style={{ height: 50, width: "auto" }} />
+            <img src={reston} style={{ height: 50, width: "auto" }} /> 
             <div></div>
           </div>
         </div>
