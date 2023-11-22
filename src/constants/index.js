@@ -46,21 +46,23 @@ const about = {
 };
 
 const team = [
-	{
-		name: 'Brian Tran',
-		image: 'https://i.pinimg.com/736x/17/71/39/1771399e0f2a20b3d0db06efc5799bae.jpg',
-		role: 'President'
-	},
-	{
-		name: 'Shoumik Bisoui',
-		image: 'https://i.pinimg.com/736x/4f/0a/ba/4f0ababa96a522758437c52b3d48e5c5.jpg',
-		role: 'Social Media Manager'
-	},
-	{
-		name: 'William Wo',
-		image: 'https://i.pinimg.com/736x/a6/91/20/a69120497f319ec6357a891ffc9452d1.jpg',
-		role: 'Sponsor Management'
-	},
+  {
+    name: "Brian Tran",
+    image:
+      "https://i.pinimg.com/736x/17/71/39/1771399e0f2a20b3d0db06efc5799bae.jpg",
+    role: "President",
+  },
+  {
+    name: "Shoumik Bisoui",
+    image: "https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg",
+    role: "Social Media Manager",
+  },
+  {
+    name: "William Wo",
+    image:
+      "https://i.pinimg.com/736x/a6/91/20/a69120497f319ec6357a891ffc9452d1.jpg",
+    role: "Sponsor Management",
+  },
 ];
 
 const contact = {

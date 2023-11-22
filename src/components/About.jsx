@@ -63,7 +63,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mb-[200px] flex flex-row"> 
+      <div className="flex flex-row"> 
         <div className="mr-[30px]">
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}
