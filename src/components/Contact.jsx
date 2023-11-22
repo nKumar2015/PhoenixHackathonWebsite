@@ -21,7 +21,7 @@ const Contact = () => {
           Let us know how we can help
         </motion.p>
       </div>
-      <div className="grid grid-rows-3 grid-cols-3 divide-x bg-tertiary rounded-[10px] pt-5 p-2">
+      <div className="flex flex-col md:grid grid-rows-3 grid-cols-3 md:divide-x bg-tertiary rounded-[10px] pt-5 p-2">
         <div className="p-5 text-[length:var(--button-text-size)] text-[color:var(--c4)] self-stretch flex flex-col gap-y-2 text-left">
           <div className="relative pb-3 text-[length:var(--font-size-lg)] tracking-[0.02em] font-semibold">
             Reach Us
