@@ -11,10 +11,8 @@ const About = () => {
   return (
     <>
       <div>
-      <motion.div variants={textVariant()}>
             <h2 className={styles.headerText}
             >{about.header.title}</h2>
-          </motion.div>
       </div>
 
       <div className="mb-[200px] space-x-10 flex flex-row">
