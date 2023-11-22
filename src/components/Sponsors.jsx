@@ -21,21 +21,21 @@ const Sponsors = () => {
         </motion.p>
       </div>
       <div className="flex flex-row gap-5 w-[100%] h-[50px] overflow-hidden relative">
-        <div className="block md:w-[200%] w-[350%] absolute overflow-hidden animate-[marquee_12s_linear_infinite]">
-          <div className="flex justify-between flex-row float-left overflow-hidden w-[50%]">
-            <img src={lcpscs} style={{ height: 50, width: "auto" }} />
-            <img src={awmg} style={{ height: 50, width: "auto" }} />
-            <img src={northpoint} style={{ height: 50, width: "auto" }} />
-            <img src={kwf} style={{ height: 50, width: "auto" }} /> 
-            <img src={reston} style={{ height: 50, width: "auto" }} /> 
+        <div className="block md:w-[200%] w-[350%] absolute overflow-hidden animate-[marquee_6s_linear_infinite] sm:animate-[marquee_12s_linear_infinite]">
+          <div className="flex justify-between flex-row float-left overflow-hidden w-[50%] h-[35px] sm:h-[50px]">
+            <img src={lcpscs} style={{ width: "auto" }} />
+            <img src={awmg} style={{ width: "auto" }} />
+            <img src={northpoint} style={{ width: "auto" }} />
+            <img src={kwf} style={{ width: "auto" }} />
+            <img src={reston} style={{ width: "auto" }} />
             <div></div>
           </div>
-          <div className="flex justify-between flex-row float-left overflow-hidden w-[50%] ">
-            <img src={lcpscs} style={{ height: 50, width: "auto" }} />
-            <img src={awmg} style={{ height: 50, width: "auto" }} />
-            <img src={northpoint} style={{ height: 50, width: "auto" }} />
-            <img src={kwf} style={{ height: 50, width: "auto" }} />
-            <img src={reston} style={{ height: 50, width: "auto" }} /> 
+          <div className="flex justify-between flex-row float-left overflow-hidden w-[50%] h-[35px] sm:h-[50px] ">
+            <img src={lcpscs} style={{ width: "auto" }} />
+            <img src={awmg} style={{ width: "auto" }} />
+            <img src={northpoint} style={{ width: "auto" }} />
+            <img src={kwf} style={{ width: "auto" }} />
+            <img src={reston} style={{ width: "auto" }} />
             <div></div>
           </div>
         </div>
