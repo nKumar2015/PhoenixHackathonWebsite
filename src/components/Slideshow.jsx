@@ -50,7 +50,7 @@ const Slideshow = () => {
           <button
             className="bg-white py-3 px-8 outline-none w-fit 
             text-tertiary font-bold shadow-md shadow-primary
-            rounded-xl mt-8 animate-pulse hover:bg-white hover:text-black"
+            rounded-xl mt-8 animate-bounce hover:bg-white hover:text-black"
           >
             <Link
               to={`${signup}`}

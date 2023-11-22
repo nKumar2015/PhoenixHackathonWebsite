@@ -15,4 +15,7 @@ import kwf from "./kwf.png"
 import reston from "./reston.png"
 import hacking from "./hacking.png"
 
-export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, reston };
+import phxhaklogo from './phxhaklogo.svg'
+import redlogo from './redlogo1.png'
+
+export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo };
