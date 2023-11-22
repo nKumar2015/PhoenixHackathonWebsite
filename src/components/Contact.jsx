@@ -29,7 +29,7 @@ const Contact = () => {
           <div className="flex flex-col justify-start gap-[var(--gap-xs)]">
             <div className="flex flex-row items-center justify-start gap-[var(--gap-5xs)]">
               <img className="relative w-[20px] h-[20px]" alt="" src={email} />
-              <div class="break-words max-w-[90%]">{contact.email}</div>
+              <div className="break-words max-w-[90%]">{contact.email}</div>
             </div>
             <div className="flex flex-row justify-start gap-[var(--gap-5xs)]">
               <img
@@ -48,7 +48,7 @@ const Contact = () => {
           <form
             action="https://public.herotofu.com/v1/3100d380-7c36-11ee-892a-477781dfceee"
             method="post"
-            accept-charset="UTF-8"
+            acceptCharset="UTF-8"
           >
             <div className="flex flex-col justify-start gap-[var(--gap-xs)] text-[color:var(--c3)]">
               <input
@@ -84,8 +84,8 @@ const Contact = () => {
                   <input
                     type="text"
                     name="_gotcha"
-                    tabindex="-1"
-                    autocomplete="off"
+                    tabIndex="-1"
+                    autoComplete="off"
                   />
                 </div>
               </div>

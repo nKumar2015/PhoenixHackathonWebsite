@@ -13,4 +13,7 @@ import awmg from "./awmg.png"
 import northpoint from "./northpoint.png"
 import kwf from "./kwf.png"
 
-export { menu, close, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf };
+import phxhaklogo from './phxhaklogo.svg'
+import redlogo from './redlogo1.png'
+
+export { menu, close, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo };
