@@ -6,6 +6,9 @@ import { Tilt } from 'react-tilt';
 
 import { team } from '../constants'
 import { styles } from '../styles';
+import { motion } from "framer-motion";
+import { fadeIn, textVariant } from "../utils/motion";
+
 
 const PersonCard = ({ name, image, role }) => {
   return (
@@ -26,10 +29,15 @@ const PersonCard = ({ name, image, role }) => {
 
 const TeamMembers = () => {
   return (
-    <div className={`mt-20 flex justify-center flex-wrap gap-7 mx-auto max-w-[96rem]`}>
-      {team.map((person, index) => (
-        <PersonCard key={`person.${index}`} {...person} />
-      ))}
+    <div className={`mt-20 flex items-center flex-col gap-7 mx-auto max-w-[96rem]`}>
+      <motion.div variants={textVariant()}>
+          <h2 className={styles.sectionHeadText}>Sponsors</h2>
+        </motion.div>
+      <div classname='flex flex-row flex-wrap w-[1000px]'>
+        {team.map((person, index) => (
+          <PersonCard key={`person.${index}`} {...person} />
+        ))}
+      </div>
     </div>
   )
 }

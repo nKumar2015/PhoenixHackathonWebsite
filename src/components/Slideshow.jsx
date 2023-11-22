@@ -35,7 +35,7 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group pt-20 ">
+    <div className="max-w-[1800px] h-[1000px] w-full m-auto py-16 px-4 relative group pt-20 ">
       <div
         style={{ backgroundImage: `url(${slideImages[currentIndex]})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500 items-center flex justify-center flex-col"
