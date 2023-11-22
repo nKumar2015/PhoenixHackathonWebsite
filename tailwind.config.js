@@ -24,8 +24,11 @@ export const theme = {
     keyframes: {
       marquee: {
         "0%": { left: "0%" },
-        "100%": { left: "-100%" }
+        "100%": { left: "-100%" },
       },
+    },
+    screens: {
+      "xs": "450px",
     },
   },
 };
