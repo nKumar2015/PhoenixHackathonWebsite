@@ -2,11 +2,12 @@ const slideCaptions = [
   {
     main: "Phoenix Hacks",
     subtext:
-      "January 6th, 2024",
+      "January 6-7th, 2024",
   },
 ];
 
 const signup = 'https://docs.google.com/forms/d/e/1FAIpQLScZWF-7twcqNmcirLapwiOdgu2yNqTi3RrzOAlQb9_17ZYoHg/viewform'; 
+const planning = "https://docs.google.com/document/d/1U44gAgG0d3-_8ZP-FuaK8-SrjbYKU_nOjiaKbHxNaHQ/view";
 
 const navLinks = [
 	{
@@ -73,4 +74,4 @@ const contact = {
 	mapid: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.4625996210652!2d-77.50240125167447!3d38.97798397794696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b63f61fe2dd529%3A0x49f14c31f5e7c9f3!2sRock%20Ridge%20High%20School!5e1!3m2!1sen!2sus!4v1699241607727!5m2!1sen!2sus"
 }
 
-export { navLinks, signup, slideCaptions, about, contact, team}
+export { navLinks, signup, slideCaptions, about, contact, team, planning}
