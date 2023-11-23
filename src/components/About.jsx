@@ -10,12 +10,8 @@ import { hackathon, workshops, hacking } from "../assets";
 const About = () => {
   return (
     <>
-      <div>
-        <h2 className={styles.headerText}>{about.header.title}</h2>
-      </div>
-
       <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] space-x-10 flex flex-row">
-        <img src={hacking} className="hidden md:flex" />
+        <img src={hacking} className="hidden md:flex rounded-2xl" />
         <div>
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.phoenix.title}</h2>

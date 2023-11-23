@@ -2,7 +2,7 @@
 import React from 'react'
 import { BrowserRouter } from "react-router-dom"
 
-import { Navbar, Slideshow, Contact, About, Sponsors, TeamMembers, Footer } from './components'
+import { Navbar, Slideshow, Contact, About, Schedule, Sponsors, TeamMembers, Footer } from './components'
 
 const App = () => {
   return (
@@ -13,13 +13,16 @@ const App = () => {
           <Slideshow />
         </div>
         <About />
+        <div className="hidden lg:flex">
+          <Schedule />
+        </div>
         <TeamMembers />
         <Sponsors />
         <Contact />
-        <Footer /> 
+        <Footer />
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App
