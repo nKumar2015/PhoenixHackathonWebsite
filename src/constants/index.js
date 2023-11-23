@@ -53,15 +53,16 @@ const team = [
     role: "President",
   },
   {
-    name: "Shoumik Bisoui",
-    image: "https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg",
-    role: "Social Media Manager",
-  },
-  {
     name: "William Wo",
     image:
       "https://i.pinimg.com/736x/a6/91/20/a69120497f319ec6357a891ffc9452d1.jpg",
     role: "Sponsor Management",
+  },
+  {
+    name: "Shoumik Bisoui",
+    image:
+      "https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg",
+    role: "Social Media Manager",
   },
 ];
 

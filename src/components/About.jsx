@@ -14,7 +14,7 @@ const About = () => {
         <h2 className={styles.headerText}>{about.header.title}</h2>
       </div>
 
-      <div className="mb-[50px] xs:mb-[100px] sm:mb-[200px] space-x-10 flex flex-row">
+      <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] space-x-10 flex flex-row">
         <img src={hacking} className="hidden md:flex" />
         <div>
           <motion.div variants={textVariant()}>
@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mb-[50px] xs:mb-[100px] sm:mb-[200px] flex flex-row">
+      <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] flex flex-row">
         <div className="mr-[30px]">
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.hackathon.title}</h2>
@@ -44,7 +44,7 @@ const About = () => {
         <img src={hackathon} className="hidden md:flex max-h-[500px]" />
       </div>
 
-      <div className="mb-[50px] xs:mb-[100px] sm:mb-[200px] flex flex-row">
+      <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] flex flex-row">
         <img src={workshops} className="hidden md:flex" />
         <div>
           <motion.div variants={textVariant()}>

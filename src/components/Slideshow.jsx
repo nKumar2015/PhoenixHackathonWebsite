@@ -35,10 +35,10 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="max-w-[1800px] h-[1000px] w-full m-auto py-16 px-4 relative group pt-20 ">
+    <div className="max-w-[1800px] max-h-[1200px] h-[100vh] w-full m-auto py-16 px-4 relative group pt-20 ">
       <div
         style={{ backgroundImage: `url(${slideImages[currentIndex]})` }}
-        className="w-full h-full rounded-2xl bg-center bg-cover duration-500 items-center flex justify-center flex-col"
+        className="w-full h-full rounded-2xl bg-center bg-cover duration-500 items-center text-center flex justify-center flex-col"
       >
         <h1 className="text-[50px] md:flex justify-center md:text-[90px] font-bold [text-shadow:_0_7px_0_rgb(0_0_0_/_40%)]">
           {slideCaptions[0].main}
@@ -50,7 +50,7 @@ const Slideshow = () => {
           <button
             className="bg-white py-3 px-8 outline-none w-fit 
             text-tertiary font-bold shadow-md shadow-primary
-            rounded-xl mt-8 animate-bounce hover:bg-white hover:text-black"
+            rounded-xl mt-8 animate-bounce hover:bg-tertiary hover:text-white"
           >
             <Link
               to={`${signup}`}
