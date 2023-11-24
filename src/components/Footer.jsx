@@ -10,10 +10,10 @@ const Footer = () => {
 
   return (
     <div className="flex flex-wrap justify-center bg-tertiary p-2">
-        <a className='m-5'target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/3crGWCaz25kZ55FCA">Rock Ridge High School</a>
-        <p className='m-5'>Information Packet</p>
-        <a className='m-5' target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/phoenix.hacks/'>Instagram</a>
-        <Link className='m-5' to='javascript:void(0)'onClick={() => window.location = 'mailto:yourmail@domain.com'}>
+        <a className='m-5 hover:font-bold hover:underline'target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/3crGWCaz25kZ55FCA">Rock Ridge High School</a>
+        <p className='m-5 hover:font-bold hover:underline'>Information Packet</p>
+        <a className='m-5 hover:font-bold hover:underline' target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/phoenix.hacks/'>Instagram</a>
+        <Link className='m-5 hover:font-bold hover:underline' to='javascript:void(0)'onClick={() => window.location = 'mailto:yourmail@domain.com'}>
           phoenixhacks2023@gmail.com
         </Link>
     </div>
