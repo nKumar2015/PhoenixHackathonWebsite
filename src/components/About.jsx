@@ -4,14 +4,18 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../HOC'
 import { motion } from 'framer-motion'
 import { fadeIn, textVariant } from "../utils/motion";
-import { about } from '../constants'
-import { hackathon, workshops, hacking } from "../assets";
+import { about, planning, aboutimgs } from "../constants";
+import { Link } from "react-router-dom";
+import { hackathon, workshops, hacking, prizes } from "../assets";
 
 const About = () => {
   return (
     <>
-      <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] space-x-10 flex flex-row">
-        <img src={hacking} className="hidden md:flex rounded-2xl" />
+      <div className="items-center mb-[50px] xs:mb-[75px] sm:mb-[100px] md:mb-[125px] flex flex-row">
+        <img
+          src={hacking}
+          className="hidden lg:flex max-h-[400px] w-[80%] rounded-2xl mr-8"
+        />
         <div>
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.phoenix.title}</h2>
@@ -21,11 +25,19 @@ const About = () => {
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
             {about.phoenix.desc}
+            <Link
+              to={`${planning}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-blue-500 font-extrabold inline-flex hover:underline hover:text-white"
+            >
+              <span>Info Packet</span>
+            </Link>
           </motion.p>
         </div>
       </div>
 
-      <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] flex flex-row">
+      <div className="items-center mb-[50px] xs:mb-[75px] sm:mb-[100px] md:mb-[125px] flex flex-row">
         <div className="mr-[30px]">
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.hackathon.title}</h2>
@@ -37,11 +49,17 @@ const About = () => {
             {about.hackathon.desc}
           </motion.p>
         </div>
-        <img src={hackathon} className="hidden md:flex max-h-[500px]" />
+        <img
+          src={aboutimgs.welcome}
+          className="hidden lg:flex max-h-[400px] w-[80%] rounded-2xl"
+        />
       </div>
 
-      <div className="mb-[50px] xs:mb-[100px] sm:mb-[150px] flex flex-row">
-        <img src={workshops} className="hidden md:flex" />
+      <div className="items-center mb-[50px] xs:mb-[75px] sm:mb-[100px] md:mb-[125px] flex flex-row gap-10">
+        <img
+          src={workshops}
+          className="hidden lg:flex max-h-[400px] w-[80%] rounded-2xl"
+        />
         <div>
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.workshops.title}</h2>
@@ -55,7 +73,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-row">
+      <div className="items-center flex flex-row ">
         <div className="mr-[30px]">
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.prizes.title}</h2>
@@ -67,7 +85,10 @@ const About = () => {
             {about.prizes.desc}
           </motion.p>
         </div>
-        <img src={hackathon} className="hidden md:flex max-h-[500px]" />
+        <img
+          src={prizes}
+          className="hidden lg:flex max-h-[400px] w-[80%] rounded-2xl"
+        />
       </div>
     </>
   );

@@ -27,7 +27,7 @@ const Schedule = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-blue-500 font-extrabold inline-flex hover:underline hover:text-white"
             >
-              <span className="pl-1"> Planning Sheet</span>
+              <span className="pl-1">Info Packet</span>
             </Link>
           </span>
         </motion.p>

@@ -25,26 +25,30 @@ const navLinks = [
 ];
 
 const about = {
-	header: {
-		title: "WELCOME TO PHOENIX HACKATHON 2023-2024"
-	},
-	phoenix: { 
-		title: 'PHOENIX HACKATHON',
-		desc: "This is our second year running an in-person hackathon. We're based at Rock Ridge High School, in Ashburn, Virginia. We look forward to seeing many of you at our event!",
-	},
-	hackathon: {
-		title: 'HACK-A-WHAT?',
-		desc: "A hackathon is a short 1-2 day event where students from middle and high school create and submit a project. Projects can be anything as long as it's related to STEM and follows the theme. During the event, students can choose to attend workshops to learn specific skills. The projects are judged, with overall winners and category winners being selected and awarded with prizes.",
-	},
-	workshops: {
-		title: 'WORKSHOPS',
-		desc: 'We offer workshops for beginners, intermediate, and advanced. Some of our workshops include: Intro to Python, Natural Language Processing, Figma Design, and much more. Look in the Student Packet for more workshops and how to sign up',
-	},
-	prizes: {
-		title: 'PRIZES',
-		desc: 'We have over $1000 in prizes. Our top prizes include a 144hz Gaming Monitor, AirPods, and a drone. We have many more prizes in different categories such as Most Innovative, Best Theme, and Most Workshops Attended. Please check the student information packet for all the prizes we have.'
-	}
+  header: {
+    title: "WELCOME TO PHOENIX HACKATHON 2023-2024",
+  },
+  phoenix: {
+    title: "PHOENIX HACKATHON",
+    desc: "This is our second year running an in-person hackathon. We're based at Rock Ridge High School, in Ashburn, Virginia. We look forward to seeing many of you at our event! For full schedule and more information: ",
+  },
+  hackathon: {
+    title: "HACK-A-WHAT?",
+    desc: "A hackathon is a short 1-2 day event where students from middle and high school create and submit a project. Projects can be anything as long as it's related to STEM and follows the theme. During the event, students can choose to attend workshops to learn specific skills. The projects are judged, with overall winners and category winners being selected and awarded with prizes.",
+  },
+  workshops: {
+    title: "WORKSHOPS",
+    desc: "We offer workshops for beginners, intermediate, and advanced. Some of our workshops include: Intro to Python, Natural Language Processing, Figma Design, and much more. Look in the Student Packet for more workshops and how to sign up",
+  },
+  prizes: {
+    title: "PRIZES",
+    desc: "We have over $1000 in prizes. Our top prizes include a 144hz Gaming Monitor, AirPods, and a drone. We have many more prizes in different categories such as Most Innovative, Best Theme, and Most Workshops Attended. Please check the student information packet for all the prizes we have.",
+  },
 };
+
+const aboutimgs = {
+	welcome: 'https://i.pinimg.com/originals/75/46/e4/7546e4e5263716550263f41c703471d4.png',
+}
 
 const team = [
   {
@@ -74,4 +78,4 @@ const contact = {
 	mapid: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.4625996210652!2d-77.50240125167447!3d38.97798397794696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b63f61fe2dd529%3A0x49f14c31f5e7c9f3!2sRock%20Ridge%20High%20School!5e1!3m2!1sen!2sus!4v1699241607727!5m2!1sen!2sus"
 }
 
-export { navLinks, signup, slideCaptions, about, contact, team, planning}
+export { navLinks, signup, slideCaptions, about, contact, team, planning, aboutimgs}

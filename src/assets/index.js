@@ -6,6 +6,7 @@ import email from './email.svg'
 
 import hackathon from './hackathon.avif'
 import workshops from './workshops.png'
+import prizes from "./prizes.png";
 
 import lcpscs from './lcpscs.png'
 import mantech from "./mantech.png"
@@ -18,4 +19,4 @@ import hacking from "./hacking.png"
 import phxhaklogo from './phxhaklogo.svg'
 import redlogo from './redlogo1.png'
 
-export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo };
+export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes };

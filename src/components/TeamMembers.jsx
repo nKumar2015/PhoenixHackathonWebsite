@@ -43,9 +43,9 @@ const TeamMembers = () => {
   return (
     <div className="flex flex-col items-center">
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Meet our Team</h2>
+        <h2 className={`${styles.sectionHeadText} pt-0`}>Meet our Team</h2>
       </motion.div>
-      <div className="flex flex-wrap justify-center items-center gap-4 xs:gap-8 xs:mt-12">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-4 xs:gap-8 xs:mt-12">
         {team.map((person, index) => (
           <PersonCard key={`person.${index}`} {...person} />
         ))}
