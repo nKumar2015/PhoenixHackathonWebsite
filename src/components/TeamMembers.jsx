@@ -16,7 +16,7 @@ const PersonCard = ({ name, image, role }) => {
   return (
     <Tilt
       option={{ max: 45, scale: 1, speed: 450 }}
-      className="bg-tertiary p-3 xs:p-5 sm:min-w-[285px] xs:min-w-[150px] min-w-[100px] rounded-2xl"
+      className="bg-tertiary p-3 xs:p-5 sm:w-[285px] xs:w-[150px] w-[100px] rounded-2xl"
     >
       <div className="flex flex-col relative items-center">
         <img
