@@ -15,8 +15,10 @@ import northpoint from "./northpoint.png"
 import kwf from "./kwf.png"
 import reston from "./reston.png"
 import hacking from "./hacking.png"
+import desmos_logo from "./desmos_logo.png"
+import acf from "./acf.png"
 
 import phxhaklogo from './phxhaklogo.svg'
 import redlogo from './redlogo1.png'
 
-export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes };
+export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes, desmos_logo, acf };
