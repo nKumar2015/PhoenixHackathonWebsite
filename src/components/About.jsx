@@ -73,7 +73,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="items-center flex flex-row ">
+      <div className="items-center mb-[50px] xs:mb-[75px] sm:mb-[100px] md:mb-[125px] flex flex-row ">
         <div className="mr-[30px]">
           <motion.div variants={textVariant()}>
             <h2 className={styles.sectionHeadText}>{about.prizes.title}</h2>
@@ -89,6 +89,24 @@ const About = () => {
           src={prizes}
           className="hidden lg:flex max-h-[400px] w-[80%] rounded-2xl"
         />
+      </div>
+
+      <div className="items-center flex flex-row gap-10">
+        <img
+          src={aboutimgs.ctf}
+          className="hidden lg:flex lg:max-h-[300px] xl:max-h-[400px] w-auto rounded-2xl"
+        />
+        <div>
+          <motion.div variants={textVariant()}>
+            <h2 className={styles.sectionHeadText}>{about.ctf.title}</h2>
+          </motion.div>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          >
+            {about.ctf.desc}
+          </motion.p>
+        </div>
       </div>
     </>
   );

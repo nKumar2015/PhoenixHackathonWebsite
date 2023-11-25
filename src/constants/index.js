@@ -44,10 +44,15 @@ const about = {
     title: "PRIZES",
     desc: "We have over $1000 in prizes. Our top prizes include a 144hz Gaming Monitor, AirPods, and a drone. We have many more prizes in different categories such as Most Innovative, Best Theme, and Most Workshops Attended. Please check the student information packet for all the prizes we have.",
   },
+  ctf: {
+    title:"CTF",
+    desc: "Engage in our Capture the Flag Tournament, where participants must outsmart opponents to capture virtual flags strategically placed within vulnerable systems. This hands-on experience will test your hacking skills, problem-solving, and cybersecurity knowledge. Keep in mind that this is a seperate section of the event with different prizes.",
+  }
 };
 
 const aboutimgs = {
 	welcome: 'https://i.pinimg.com/originals/75/46/e4/7546e4e5263716550263f41c703471d4.png',
+  ctf: 'https://i.pinimg.com/originals/67/c5/c6/67c5c6a934a31268c3d5603b44806a3b.png'
 }
 
 const team = [
@@ -56,6 +61,12 @@ const team = [
     image:
       "https://i.pinimg.com/736x/17/71/39/1771399e0f2a20b3d0db06efc5799bae.jpg",
     role: "President",
+  },
+  {
+    name: "Taran Kamireddy",
+    image:
+      "https://i.pinimg.com/originals/8f/90/23/8f9023aacc465863537a1dd20bcc0e15.png",
+    role: "Vice President",
   },
   {
     name: "William Wo",
@@ -68,6 +79,12 @@ const team = [
     image:
       "https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg",
     role: "Social Media Manager",
+  },
+  {
+    name: "Rohan Matta",
+    image:
+      "https://i.pinimg.com/originals/e9/88/a4/e988a465fa3a990568f98a4804b1e9c3.png",
+    role: "Treasurer",
   },
 ];
 
