@@ -49,31 +49,19 @@ const Schedule = () => {
         </thead>
         <tbody>
           <tr>
-            <td className="p-1 border border-slate-600">9:25 - 10:25</td>
+            <td className="p-1 border border-slate-600">9:25 - 10:25 AM</td>
             <td className="p-1 border border-slate-600">
-              Intro To HTML (L515)
+              Intro to Cybersecurity - Bandit Over the Wire (L515)
             </td>
-            <td className="p-1 border border-slate-600">Intro to CAD (L518)</td>
-            <td className="p-1 border border-slate-600">
-              Machine Learning with Python (L519)
-            </td>
-          </tr>
-          <tr>
-            <td className="p-1 border border-slate-600">10:30 - 11:30</td>
-            <td className="p-1 border border-slate-600">
-              Intro to Python (L515)
-            </td>
-            <td className="p-1 border border-slate-600">
-              Figma UI Design (L518)
-            </td>
+            <td className="p-1 border border-slate-600">Figma UI Design (L518)</td>
             <td className="p-1 border border-slate-600">
               Competitive Programming (L519)
             </td>
           </tr>
           <tr>
-            <td className="p-1 border border-slate-600">12:40 - 1:20</td>
+            <td className="p-1 border border-slate-600">10:30 - 11:30 AM</td>
             <td className="p-1 border border-slate-600">
-              Intro to Java (L515)
+              Intro to Python (L515)
             </td>
             <td className="p-1 border border-slate-600">
               Intro to Linux + VMs (L518)
@@ -83,9 +71,21 @@ const Schedule = () => {
             </td>
           </tr>
           <tr>
-            <td className="p-1 border border-slate-600">3:35 - 4:35</td>
+            <td className="p-1 border border-slate-600">1:25 - 2:25 PM</td>
             <td className="p-1 border border-slate-600">
-              Intro to Cybersecurity - Bandit Over the Wire (L515)
+              Intro To HTML (L515)
+            </td>
+            <td className="p-1 border border-slate-600">
+              Intro to CAD (L518)
+            </td>
+            <td className="p-1 border border-slate-600">
+              Machine Learning with Python (L519)
+            </td>
+          </tr>
+          <tr>
+            <td className="p-1 border border-slate-600">3:35 - 4:35 PM</td>
+            <td className="p-1 border border-slate-600">
+              Intro to Java (L515)
             </td>
             <td className="p-1 border border-slate-600">
               Intro to React JS (L518)
