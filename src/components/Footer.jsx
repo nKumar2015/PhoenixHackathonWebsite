@@ -18,8 +18,8 @@ const Footer = () => {
               <span>Info Packet</span>
         </Link>        
         <a className='m-5 hover:font-bold hover:underline' target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/phoenix.hacks/'>Instagram</a>
-        <Link className='m-5 hover:font-bold hover:underline' to='javascript:void(0)'onClick={() => window.location = 'mailto:yourmail@domain.com'}>
-          phoenixhacks2023@gmail.com
+        <Link className='m-5 hover:font-bold hover:underline' to='javascript:void(0)'onClick={() => window.location = 'mailto:rockridge@phxhax.com'}>
+          rockridge@phxhax.com
         </Link>
 
     </div>
