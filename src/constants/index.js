@@ -78,7 +78,7 @@ const team = [
     name: "Shoumik Bisoui",
     image:
       "https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg",
-    role: "Social Media Manager",
+    role: "Web Developer",
   },
   {
     name: "Rohan Matta",

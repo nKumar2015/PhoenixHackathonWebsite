@@ -17,7 +17,7 @@ const Sponsors = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className={styles.sectionSubText}
         >
-          Interested in sponsoring? Email us at phoenixhacks2023@gmail.com
+          Interested in sponsoring? Email us at rockridge@phxhax.com
         </motion.p>
       </div>
       <div className="flex flex-row gap-5 w-[100%] h-[50px] overflow-hidden relative">
