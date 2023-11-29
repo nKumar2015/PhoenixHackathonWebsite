@@ -67,7 +67,7 @@ const Schedule = () => {
               Intro to Linux + VMs (L518)
             </td>
             <td className="p-1 border border-slate-600">
-              Java 3D Graphics (L519)
+              Introduction to APIs (L519)
             </td>
           </tr>
           <tr>
