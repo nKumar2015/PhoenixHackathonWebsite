@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import { sponsorpacket } from '../assets';
 import { planning } from '../constants';
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
         <Link className='m-5 hover:font-bold hover:underline' to='javascript:void(0)'onClick={() => window.location = 'mailto:rockridge@phxhax.com'}>
           rockridge@phxhax.com
         </Link>
-
+        <a href = {sponsorpacket} className='m-5 hover:font-bold hover:underline'target="_blank" rel="noopener noreferrer">Sponsorship Packet</a>
     </div>
   )
 }
