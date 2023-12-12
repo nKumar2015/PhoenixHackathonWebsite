@@ -21,4 +21,6 @@ import acf from "./acf.png"
 import phxhaklogo from './phxhaklogo.svg'
 import redlogo from './redlogo1.png'
 
-export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes, desmos_logo, acf };
+import sponsorpacket from "./spacket.pdf"
+
+export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes, desmos_logo, acf, sponsorpacket};

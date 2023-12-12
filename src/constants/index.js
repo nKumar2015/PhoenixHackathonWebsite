@@ -55,6 +55,10 @@ const aboutimgs = {
   ctf: 'https://i.pinimg.com/originals/67/c5/c6/67c5c6a934a31268c3d5603b44806a3b.png'
 }
 
+const sponsor = {
+  text: "Interested in sponsoring? Email us at rockridge@phxhax.com and check out our "
+}
+
 const team = [
   {
     name: "Brian Tran",
@@ -95,4 +99,4 @@ const contact = {
 	mapid: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.4625996210652!2d-77.50240125167447!3d38.97798397794696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b63f61fe2dd529%3A0x49f14c31f5e7c9f3!2sRock%20Ridge%20High%20School!5e1!3m2!1sen!2sus!4v1699241607727!5m2!1sen!2sus"
 }
 
-export { navLinks, signup, slideCaptions, about, contact, team, planning, aboutimgs}
+export { navLinks, signup, slideCaptions, about, contact, team, planning, aboutimgs, sponsor}

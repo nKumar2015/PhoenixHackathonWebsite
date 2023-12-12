@@ -4,7 +4,8 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../HOC";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import { lcpscs, awmg, northpoint, kwf, reston, acf, desmos_logo } from "../assets";
+import { lcpscs, awmg, northpoint, reston, acf, desmos_logo, sponsorpacket } from "../assets";
+import { sponsor } from "../constants";
 
 const Sponsors = () => {
   return (
@@ -17,7 +18,15 @@ const Sponsors = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className={styles.sectionSubText}
         >
-          Interested in sponsoring? Email us at rockridge@phxhax.com
+          {sponsor.text}
+          <a
+            href={sponsorpacket}
+            className="flex items-center text-blue-500 font-extrabold inline-flex hover:underline hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sponsorship Packet
+          </a>
         </motion.p>
       </div>
       <div className="flex flex-row gap-5 w-[100%] h-[50px] overflow-hidden relative">
