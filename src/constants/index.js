@@ -2,7 +2,7 @@ const slideCaptions = [
   {
     main: "Phoenix Hacks",
     subtext:
-      "January 6-7th, 2024",
+      "Feb 10-11th, 2024",
   },
 ];
 
