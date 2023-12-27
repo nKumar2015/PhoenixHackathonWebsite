@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../HOC";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import { lcpscs, awmg, northpoint, reston, acf, desmos_logo, sponsorpacket } from "../assets";
+import { lcpscs, awmg, northpoint, reston, acf, desmos_logo, sponsorpacket, coderschool } from "../assets";
 import { sponsor } from "../constants";
 
 const Sponsors = () => {
@@ -38,6 +38,7 @@ const Sponsors = () => {
             <img className="p-1" src={reston} style={{ width: "auto" }} />
             <img className="p-1" src={acf} style={{ width: "auto" }} />
             <img className="p-1" src={desmos_logo} style={{ width: "auto" }} />
+            <img className="p-1" src={coderschool} style={{ width: "auto" }} />
             <div></div>
           </div>
           <div className="flex justify-between flex-row float-left overflow-hidden w-[50%] h-[38px] xs:h-[43px] lg:h-[50px]">
@@ -47,6 +48,7 @@ const Sponsors = () => {
             <img className="p-1" src={reston} style={{ width: "auto" }} />
             <img className="p-1" src={acf} style={{ width: "auto" }} />
             <img className="p-1" src={desmos_logo} style={{ width: "auto" }} />
+            <img className="p-1" src={coderschool} style={{ width: "auto" }} />
             <div></div>
           </div>
         </div>
