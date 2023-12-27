@@ -17,10 +17,11 @@ import reston from "./reston.png"
 import hacking from "./hacking.png"
 import desmos_logo from "./desmos_logo.png"
 import acf from "./acf.png"
+import coderschool from "./coderschool.png"
 
 import phxhaklogo from './phxhaklogo.svg'
 import redlogo from './redlogo1.png'
 
 import sponsorpacket from "./spacket.pdf"
 
-export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes, desmos_logo, acf, sponsorpacket};
+export { menu, close, hacking, hackathon, workshops, email, address, lcpscs, mantech, awmg, northpoint, kwf, redlogo, reston, phxhaklogo, prizes, desmos_logo, acf, coderschool, sponsorpacket};
