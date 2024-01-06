@@ -60,36 +60,36 @@ const sponsor = {
 }
 
 const team = [
-  {
-    name: "Brian Tran",
-    image:
-      "https://i.pinimg.com/736x/17/71/39/1771399e0f2a20b3d0db06efc5799bae.jpg",
-    role: "President",
-  },
-  {
-    name: "Taran Kamireddy",
-    image:
-      "https://i.pinimg.com/originals/8f/90/23/8f9023aacc465863537a1dd20bcc0e15.png",
-    role: "Vice President",
-  },
-  {
-    name: "William Wo",
-    image:
-      "https://i.pinimg.com/736x/a6/91/20/a69120497f319ec6357a891ffc9452d1.jpg",
-    role: "Sponsor Management",
-  },
-  {
-    name: "Shoumik Bisoui",
-    image:
-      "https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg",
-    role: "Web Developer",
-  },
-  {
-    name: "Rohan Matta",
-    image:
-      "https://i.pinimg.com/originals/e9/88/a4/e988a465fa3a990568f98a4804b1e9c3.png",
-    role: "Treasurer",
-  },
+	{
+		name: 'Brian Tran',
+		image: 'https://i.pinimg.com/736x/17/71/39/1771399e0f2a20b3d0db06efc5799bae.jpg',
+		role: 'President',
+	},
+	{
+		name: 'Taran Kamireddy',
+		image: 'https://i.pinimg.com/originals/8f/90/23/8f9023aacc465863537a1dd20bcc0e15.png',
+		role: 'Vice President',
+	},
+	{
+		name: 'William Wo',
+		image: 'https://i.pinimg.com/736x/a6/91/20/a69120497f319ec6357a891ffc9452d1.jpg',
+		role: 'Sponsor Management',
+	},
+	{
+		name: 'Nakul Kumar',
+		image: 'https://i.pinimg.com/originals/bc/b6/d7/bcb6d70fe931cc3ccfb41fbbeafc29db.jpg',
+		role: 'Lead Website Developer',
+	},
+	{
+		name: 'Shoumik Bisoui',
+		image: 'https://i.pinimg.com/736x/09/52/3c/09523cbd4c21d9c5b70131b683bc3b30.jpg',
+		role: 'Web Developer',
+	},
+	{
+		name: 'Rohan Matta',
+		image: 'https://i.pinimg.com/originals/e9/88/a4/e988a465fa3a990568f98a4804b1e9c3.png',
+		role: 'Treasurer',
+	},
 ];
 
 const contact = {
