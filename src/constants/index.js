@@ -90,6 +90,11 @@ const team = [
 		image: 'https://i.pinimg.com/originals/e9/88/a4/e988a465fa3a990568f98a4804b1e9c3.png',
 		role: 'Treasurer',
 	},
+  {
+		name: 'Ankur Gatupa',
+		image: 'https://i.pinimg.com/736x/16/82/c7/1682c7677f0e8a0aa377e1af00d2b5dc.jpg',
+		role: 'Workshop Manager',
+	},
 ];
 
 const contact = {
