@@ -11,7 +11,7 @@ import prizes from "./prizes.png";
 import lcpscs from './lcpscs.png'
 import mantech from "./mantech.png"
 import awmg from "./awmg.png"
-import northpoint from "./northpoint.png"
+import northpoint from "./northpoint.webp"
 import kwf from "./kwf.png"
 import reston from "./reston.png"
 import hacking from "./hacking.png"
