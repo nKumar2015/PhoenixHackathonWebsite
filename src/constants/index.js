@@ -86,15 +86,21 @@ const team = [
 		role: 'Web Developer',
 	},
 	{
-		name: 'Rohan Matta',
-		image: 'https://i.pinimg.com/originals/e9/88/a4/e988a465fa3a990568f98a4804b1e9c3.png',
-		role: 'Treasurer',
+		name: 'Saanvi Movva',
+		image: 'https://i.pinimg.com/736x/48/79/46/487946a6daf62a7b7fbeee9b10ef3236.jpg',
+		role: 'Logistics Coordinator',
 	},
-  {
+  	{
 		name: 'Ankur Gatupa',
 		image: 'https://i.pinimg.com/736x/16/82/c7/1682c7677f0e8a0aa377e1af00d2b5dc.jpg',
 		role: 'Workshop Manager',
 	},
+	{
+		name: 'Aneesha Koninty',
+		image: 'https://i.pinimg.com/736x/49/a1/fd/49a1fd9e444cc7698faef4f9be026024.jpg',
+		role: 'Cyber Lead',
+	},
+
 ];
 
 const contact = {
