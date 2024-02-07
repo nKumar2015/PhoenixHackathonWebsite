@@ -41,7 +41,14 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-
+          <Link
+              to={`https://docs.google.com/document/d/1U44gAgG0d3-_8ZP-FuaK8-SrjbYKU_nOjiaKbHxNaHQ/view`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="	text-decoration-line: none text-white text-[18px] font-medium cursor-pointer hover:text-decoration-line: underline"
+            >
+              Info Packet
+            </Link>
           <button
             className="bg-white py-2 px-6 outline-none w-fit 
             text-tertiary font-bold shadow-md shadow-primary
@@ -86,6 +93,16 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li>
+                <Link
+                  to={`https://docs.google.com/document/d/1U44gAgG0d3-_8ZP-FuaK8-SrjbYKU_nOjiaKbHxNaHQ/view`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary hover:text-white font-poppins font-medium cursor-pointer text-[16px]"
+                >
+                  Info Packet
+                </Link>
+              </li>
               <li>
                 <Link
                   to={`${signup}`}
